@@ -27,7 +27,7 @@ A full-stack Task Management Dashboard built with [ReactJS](https://reactjs.org/
 - Built with [Tailwind CSS](https://tailwindcss.com/) for a modern, mobile-friendly user interface.
 
 ### Validation and Error Handling
-- Input validation using [Formik](https://formik.org/) with [Zod](https://zod.dev/):
+- Input validation using [React-hook-form](https://reacthookform.org/) with [Zod](https://zod.dev/):
   - Task title is required.
   - Due date must be a valid future date.
   - Displays user-friendly error messages for API errors and invalid input.
@@ -160,5 +160,5 @@ The app is fully responsive and works seamlessly on both desktop and mobile devi
 
 ## Challenges Faced
 - Ensuring a fully responsive design that works on all screen sizes.
-- Managing complex form validations with [Formik](https://formik.org/) and [Yup](https://github.com/jquense/yup).
+- Managing complex form validations with [ReactHookForm](https://react-hook-form.org/) and [Zod](https://github.com/jquense/zod).
 - Efficiently handling state updates and API integration with [Redux Toolkit](https://redux-toolkit.js.org/).
