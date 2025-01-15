@@ -27,7 +27,7 @@ A full-stack Task Management Dashboard built with [ReactJS](https://reactjs.org/
 - Built with [Tailwind CSS](https://tailwindcss.com/) for a modern, mobile-friendly user interface.
 
 ### Validation and Error Handling
-- Input validation using [Formik](https://formik.org/) with [Yup](https://github.com/jquense/yup):
+- Input validation using [Formik](https://formik.org/) with [Zod](https://zod.dev/):
   - Task title is required.
   - Due date must be a valid future date.
   - Displays user-friendly error messages for API errors and invalid input.
@@ -36,7 +36,7 @@ A full-stack Task Management Dashboard built with [ReactJS](https://reactjs.org/
 - **Frontend:** [ReactJS](https://reactjs.org/), [Next.js](https://nextjs.org/) (v14+)
 - **State Management:** [Redux Toolkit](https://redux-toolkit.js.org/)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Form Handling:** [Formik](https://formik.org/) with [Yup](https://github.com/jquense/yup)
+- **Form Handling:** [ReactHookForm](https://www.react-hook-form.com/) with [Yup](https://github.com/jquense/yup)
 - **Backend:** [Next.js API Routes](https://nextjs.org/docs/api-routes/introduction) with in-memory storage
 
 
@@ -139,7 +139,7 @@ Delete a task by ID.
 ```
 
 ## Error Handling and Validation
- form validations with Formik and Yup.
+ form validations with React-Hook-Form and Zod.
 ### Frontend:Toolkit.
 - Tasks must have a title.- Due dates must be valid and set in the future.
 
